@@ -1,0 +1,39 @@
+#body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* filter: blur(5px); */
+    z-index: 1;
+}
+#imgdiv{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    z-index: 3;
+}
+
+button{
+    cursor: pointer;
+    z-index: 3;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    background-color: rgb(226, 62, 144);
+    color: aliceblue;
+    font-size: 15px;
+
+}
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background: url('your-background-image.jpg') no-repeat center center; */
+    /* background-size: cover; */
+    filter: blur(10px); /* Apply blur effect to the background */
+    z-index: 1;
+}
